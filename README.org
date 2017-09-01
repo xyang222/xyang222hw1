@@ -22,6 +22,19 @@ and Git Bash for Windows. The second stage sticks mostly
 to the same commands, but has some optional parts that
 use some others as well.
 
+* Errata
+
+  + In Step 3, you are asked to type the following
+    #+begin_src sh
+      sh palimpsest
+    #+end_src
+    but there is a line missing. You should instead
+    type two commands:    
+    #+begin_src sh
+      cp Data/palimpsest .
+      sh palimpsest
+    #+end_src
+
 * First Step
 
   Clone the repository https://github.com/36-750/git-challenge
